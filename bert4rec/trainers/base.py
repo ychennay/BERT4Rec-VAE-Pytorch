@@ -1,6 +1,6 @@
-from loggers import *
-from config import STATE_DICT_KEY, OPTIMIZER_STATE_DICT_KEY
-from utils import AverageMeterSet
+from bert4rec.loggers import *
+from bert4rec.config import STATE_DICT_KEY, OPTIMIZER_STATE_DICT_KEY
+from bert4rec.utils import AverageMeterSet
 
 import torch
 import torch.nn as nn

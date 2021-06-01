@@ -1,8 +1,8 @@
 from torch import nn as nn
 
-from models.bert_modules.embedding import BERTEmbedding
-from models.bert_modules.transformer import TransformerBlock
-from utils import fix_random_seed_as
+from bert4rec.models.bert_modules.embedding import BERTEmbedding
+from bert4rec.models.bert_modules.transformer import TransformerBlock
+from bert4rec.utils import fix_random_seed_as
 
 
 class BERT(nn.Module):

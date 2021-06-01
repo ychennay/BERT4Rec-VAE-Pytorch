@@ -1,4 +1,4 @@
-from datasets import dataset_factory
+from bert4rec.datasets import dataset_factory
 from .bert import BertDataloader
 from .ae import AEDataloader
 

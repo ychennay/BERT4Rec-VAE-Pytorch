@@ -1,8 +1,8 @@
-from templates import set_template
-from datasets import DATASETS
-from dataloaders import DATALOADERS
-from models import MODELS
-from trainers import TRAINERS
+from bert4rec.templates import set_template
+from bert4rec.datasets import DATASETS
+from bert4rec.dataloaders import DATALOADERS
+from bert4rec.models import MODELS
+from bert4rec.trainers import TRAINERS
 
 import argparse
 

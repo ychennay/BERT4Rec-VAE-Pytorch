@@ -46,7 +46,7 @@ First, **fill out the optimal beta value in `templates.py`**. Then, run the foll
 python main.py --template train_vae_give_beta
 ```
 
-<img src=Images/vae_tensorboard.png width=800>
+<img src=bert4rec/Images/vae_tensorboard.png width=800>
 
 The `Best_beta` plot will help you determine the optimal beta value. It can be seen that the optimal beta value is 0.285.
 
@@ -74,8 +74,8 @@ Numbers under model names indicate the number of hidden layers.
 
 ## MovieLens-1m
 
-<img src=Images/ML1m-results.png>
+<img src=bert4rec/Images/ML1m-results.png>
 
 ## MovieLens-20m
 
-<img src=Images/ML20m-results.png>
+<img src=bert4rec/Images/ML20m-results.png>

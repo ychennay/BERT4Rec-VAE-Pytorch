@@ -1,10 +1,8 @@
-import torch
-
 from options import args
-from models import model_factory
-from dataloaders import dataloader_factory
-from trainers import trainer_factory
-from utils import *
+from bert4rec.models import model_factory
+from bert4rec.dataloaders import dataloader_factory
+from bert4rec.trainers import trainer_factory
+from bert4rec.utils import *
 
 
 def train():
